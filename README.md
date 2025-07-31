@@ -80,23 +80,24 @@ The project is organized into two main directories:
 
 pitchside/
 ├── backend/
-│   ├── controllers/  # Contains the business logic for API routes
-│   ├── models/       # Mongoose database schemas
-│   ├── routes/       # API route definitions
-│   ├── Dockerfile    # Instructions to build the backend image
-│   ├── package.json
-│   └── server.js     # The main Express server entry point
+│   ├── controllers/        # Contains the business logic for API routes
+│   ├── models/             # Mongoose database schemas
+│   ├── routes/             # API route definitions
+│   ├── Dockerfile          # Instructions to build the backend image
+│   ├── package.json        # Backend dependencies and scripts
+│   └── server.js           # The main Express server entry point
 │
 ├── frontend/
-│   ├── app/          # Next.js App Router directory
-│   │   ├── components/ # Reusable React components
-│   │   └── ...         # Page routes and layouts
-│   ├── lib/          # Data fetching logic
-│   ├── tailwind.config.ts
-│   └── package.json
+│   ├── app/                # Next.js App Router directory
+│   │   ├── components/     # Reusable React components
+│   │   └── ...             # Page routes and layouts
+│   ├── lib/                # Data fetching logic
+│   ├── tailwind.config.ts  # Tailwind CSS configuration
+│   └── package.json        # Frontend dependencies and scripts
 │
-└── docker-compose.yml # Defines and orchestrates all services
-└── README.md          # You are here!
+├── docker-compose.yml      # Defines and orchestrates all services
+└── README.md               # You're here!
+
 
 
 ---
